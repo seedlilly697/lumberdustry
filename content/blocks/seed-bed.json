@@ -27,5 +27,6 @@
     { "item": "silicon", "amount": 20 },
 	],
   "category": "crafting",
+  "effect": "none"
 
 }
