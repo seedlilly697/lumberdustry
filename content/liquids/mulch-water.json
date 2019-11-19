@@ -1,5 +1,7 @@
 {
   "type": "liquid",
-  "color": "4b6900"
-
+  "name": "mulch water",
+  "description": "soggy."
+  "color": "4b6900",
+  "viscosity": 0.8,
 }
