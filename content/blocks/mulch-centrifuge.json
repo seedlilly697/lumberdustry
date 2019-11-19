@@ -1,5 +1,5 @@
 {
-  "type": "Seperator",
+  "type": "Separator",
   "name": "Mulch Centrifuge",
   "description": "extracts dirt, tree seeds and sticks from mulch",
   "results": {
