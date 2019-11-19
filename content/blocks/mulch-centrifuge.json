@@ -1,5 +1,5 @@
 {
-  "type": "Separator",
+  "type": "separator",
   "name": "Mulch Centrifuge",
   "description": "extracts dirt, tree seeds and sticks from mulch",
   "results": [
@@ -13,11 +13,7 @@
   "craftTime": 50,
   "consumes": {
     "power": 0.9,
-    "items": {
-      "items": [
-        {"item": "mulch", "amount": 5}
-      ]
-    }
+    {"liquid": "mulch-water", "amount": 1}
   },
   "requirements": [
 		{ "item": "copper", "amount": 50 },
