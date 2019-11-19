@@ -2,13 +2,11 @@
   "type": "Separator",
   "name": "Mulch Centrifuge",
   "description": "extracts dirt, tree seeds and sticks from mulch",
-  "results": {
-    "items": [
+  "results": [
       {"item": "tree-seed", "amount": 2},
       {"item": "stick", "amount": 10},
       {"item": "dirt", "amount": 5}
-    ]
-  },
+  ],
   "size": 3,
   "hasPower": true,
   "hasItems": true,
