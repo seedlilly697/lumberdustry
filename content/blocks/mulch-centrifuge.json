@@ -1,0 +1,32 @@
+{
+  "type": "Seperator",
+  "name": "Mulch Centrifuge",
+  "description": "extracts dirt, tree seeds and sticks from mulch",
+  "results": {
+    "items": [
+      {"item": "tree-seed", "amount": 2},
+      {"item": "stick", "amount": 10},
+      {"item": "dirt", "amount": 5}
+    ]
+  },
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 50,
+  "consumes": {
+    "power": 0.9,
+    "items": {
+      "items": [
+        {"item": "mulch", "amount": 5}
+      ]
+    }
+  },
+  "requirements": [
+		{ "item": "copper", "amount": 50 },
+		{ "item": "lead", "amount": 100 },
+    { "item": "silicon", "amount": 75 },
+    { "item": "titanium", "amount": 20 }
+	],
+  "category": "crafting",
+
+}
