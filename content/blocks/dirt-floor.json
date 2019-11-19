@@ -1,0 +1,7 @@
+{
+  "type": "floor",
+  "name": "dirt-floor",
+  "itemDrop": "dirt",
+  "variants": 2,
+  "playerUnmineable": true
+}

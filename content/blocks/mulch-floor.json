@@ -1,0 +1,7 @@
+{
+  "type": "floor",
+  "name": "mulch-floor",
+  "itemDrop": "mulch",
+  "variants": 2,
+  "playerUnmineable": true
+}

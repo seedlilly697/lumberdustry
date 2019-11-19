@@ -1,0 +1,32 @@
+{
+  "type": "GenericCrafter",
+  "name": "Nutrient Compressor",
+  "description": "Compresses dirt with water to make fertilizer",
+  "liquidCapacity": 20,
+  "outputItem": {"item": "fertilizer", "amount": 1},
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasliquids": true,
+  "craftTime": 20,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 0.2,
+    "items": {
+      "items": [
+        {"item": "dirt", "amount": 4}
+      ]
+    },
+    "liquid": {
+      "liquid": "water",
+      "amount": 1
+    }
+  },
+  "requirements": [
+		{ "item": "copper", "amount": 30 },
+		{ "item": "lead", "amount": 40 },
+    { "item": "silicon", "amount": 20 },
+	],
+  "category": "crafting",
+
+}

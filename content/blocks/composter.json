@@ -1,0 +1,24 @@
+{
+  "type": "GenericCrafter",
+  "name": "Composter",
+  "description": "Composts mulch into fertilizer",
+  "outputItem": {"item": "fertilizer", "amount": 1},
+  "size": 1,
+  "hasPower": false,
+  "hasItems": true,
+  "craftTime": 15,
+  "consumes": {
+    "items": {
+      "items": [
+        {"item": "mulch", "amount": 4}
+      ]
+    }
+  },
+  "requirements": [
+		{ "item": "copper", "amount": 30 },
+		{ "item": "lead", "amount": 40 },
+    { "item": "silicon", "amount": 20 },
+	],
+  "category": "crafting",
+
+}

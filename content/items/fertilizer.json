@@ -1,0 +1,7 @@
+{
+	"type": "resource",
+	"name": "Fertilizer",
+	"description": "stinky.",
+	"cost": 2.5,
+	"color": "394803"
+}
