@@ -17,7 +17,7 @@
   "consumes": {
     "liquid": {
       "liquid": "water",
-      "amount": 5.0
+      "amount": 7.0
     },
 
     "items": {
@@ -26,9 +26,9 @@
       ]
     }
   },
-  
+
   "outputLiquid": {
     "liquid": "mulch-water",
-    "amount": 5.0
+    "amount": 7.0
   }
 }
