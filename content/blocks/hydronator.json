@@ -6,8 +6,15 @@
   "size": 2,
   "hasliquids": true,
   "hasItems": true,
-  "consumes": {
+  "craftTime": 10,
+  "requirements": [
+    { "item": "copper", "amount": 50 },
+    { "item": "lead", "amount": 100 },
+    { "item": "silicon", "amount": 75 },
+    { "item": "titanium", "amount": 20 }
+  ],
 
+  "consumes": {
     "liquid": {
       "liquid": "water",
       "amount": 5.0
@@ -19,7 +26,7 @@
       ]
     }
   },
-
+  
   "outputLiquid": {
     "liquid": "mulch-water",
     "amount": 5.0
