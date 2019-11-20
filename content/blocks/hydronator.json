@@ -1,0 +1,27 @@
+{
+  "type": "GenericCrafter",
+  "name": "Hydronator",
+  "description": "Hydronates mulch for use in an extractor",
+  "category": "crafting",
+  "size": 2,
+  "hasliquids": true,
+  "hasItems": true,
+  "consumes": {
+
+    "liquid": {
+      "liquid": "water",
+      "amount": 5.0
+    },
+
+    "items": {
+      "items": [
+        {"item": "mulch", "amount": 4}
+      ]
+    }
+  },
+
+  "outputLiquid": {
+    "liquid": "mulch-water",
+    "amount": 5.0
+  }
+}

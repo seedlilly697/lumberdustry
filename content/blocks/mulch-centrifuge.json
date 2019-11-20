@@ -16,7 +16,7 @@
     "power": 0.9,
     "liquid": {
       "liquid": "mulch-water",
-      "amount": 1.0
+      "amount": 5.0
     },
   },
 
